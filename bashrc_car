@@ -122,4 +122,4 @@ alias rosenv="env | grep ROS"
 source ~/racecar-ws/devel/setup.bash
 
 # Make sure that other nodes can reach us by setting our IP
-export ROS_IP=`hostname -I | tr -d '[:space:]'`
+export ROS_IP=`hostname -I | tr -d '[:s
